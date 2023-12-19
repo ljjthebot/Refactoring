@@ -2,18 +2,18 @@
 
 所有这些异味都是面向对象编程原则的不完整或不正确应用。
 
-## 开关语句
+## [开关语句](Object-OrientationAbusers/SwitchStatements.md)
 
 你有一个复杂的开关操作符或一系列的if语句。
 
-## 临时字段
+## [临时字段](Object-OrientationAbusers/Temporary.md)
 
 临时字段仅在特定情况下获取其值（因此仅在对象需要时），在这些情况之外，它们是空的。
 
-## 被拒绝的继承
+## [被拒绝的继承](Object-OrientationAbusers/Refused.md)
 
 如果一个子类仅使用其父类继承的某些方法和属性，那么继承体系就失衡了。不需要的方法可能会被简单地未使用或重新定义，导致异常。
 
-## 具有不同接口的替代类
+## [具有不同接口的替代类](Object-OrientationAbusers/Alternative.md)
 
 两个类执行相同的功能，但具有不同的方法名称。

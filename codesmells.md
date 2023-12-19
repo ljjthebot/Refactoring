@@ -47,6 +47,6 @@
 
 - **[特征嫉妒](codesmells/Couplers/Feature.md)**
 - **[不适当的亲密关系](codesmells/Couplers/Inappropriate.md)**
-- **不完整的库类]**
+- **不完整的库类**
 - **[消息链](codesmells/Couplers/Message.md)**
 - **[中间者](codesmells/Couplers/Middle.md)**
