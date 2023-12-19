@@ -1,16 +1,16 @@
 # 代码异味
 
 - **什么？代码怎么会 "有味道"？**
-  - 嗯，它没有鼻子... 但它确实可能很臭！
+- **嗯，它没有鼻子... 但它确实可能很臭！**
 
-## [膨胀者](codesmells/bloaters.md)
+## [死肥仔](codesmells/bloaters.md)
 
-膨胀者是指代码、方法和类的规模变得如此庞大，以至于难以处理。通常，这些异味不会立即显现，而是随着程序的演化而积累（尤其是当没有人努力根除它们时）。
+死肥仔是指代码、方法和类的规模变得非常庞大，以至于难以处理。通常，这些异味不会立即显现，而是随着程序的演化而积累（尤其是没有人努力根除它们时）。
 
 - **[长方法](codesmells/bloaters/LongMethod.md)**
 - **[大类](codesmells/bloaters/LargeClass.md)**
-- **[基本类型过度使用](codesmells/bloaters/primitiveObsession.md)**
-- **[长参数列表](codesmells/bloaters/LongParaList.md)**
+- **[滥用基本类型](codesmells/bloaters/primitiveObsession.md)**
+- **[多参数](codesmells/bloaters/LongParaList.md)**
 - **[数据集聚](codesmells/bloaters/DataClumps.md)**
 
 ## [面向对象滥用者](codesmells/Object-OrientationAbusers.md)
