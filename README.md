@@ -184,14 +184,14 @@
 
 这些重构技术展示了如何在类之间安全地移动功能，创建新类，并将实现细节隐藏在公共访问之外。
 
-- 移动方法（Move Method）
-- 移动字段（Move Field）
-- 提取类（Extract Class）
-- 内联类（Inline Class）
-- 隐藏代理（Hide Delegate）
-- 移除中间人（Remove Middle Man）
-- 引入外来方法（Introduce Foreign Method）
-- 引入本地扩展（Introduce Local Extension）
+- [移动方法（Move Method）](RefactoringTechniques/MovingFeaturesbetweenObjects/MoveMethod.md)
+- [移动字段（Move Field）](RefactoringTechniques/MovingFeaturesbetweenObjects/MoveField.md)
+- [提取类（Extract Class）](RefactoringTechniques/MovingFeaturesbetweenObjects/ExtractClass.md)
+- [内联类（Inline Class）](RefactoringTechniques/MovingFeaturesbetweenObjects/InlineClass.md)
+- [隐藏代理（Hide Delegate）](RefactoringTechniques/MovingFeaturesbetweenObjects/HideDelegate.md)
+- [移除中间人（Remove Middle Man）](RefactoringTechniques/MovingFeaturesbetweenObjects/RemoveMiddleMan.md)
+- [引入外来方法（Introduce Foreign Method）](RefactoringTechniques/MovingFeaturesbetweenObjects/IntroduceForeignMethod.md)
+- [引入本地扩展（Introduce Local Extension）](RefactoringTechniques/MovingFeaturesbetweenObjects/IntroduceLocalExtension.md)
 
 ### [数据组织](RefactoringTechniques/OrganizingData/)
 这些重构技术有助于处理数据，将基本类型替换为丰富的类功能。另一个重要的结果是解开类之间的关联，使类更易于移植和重用。

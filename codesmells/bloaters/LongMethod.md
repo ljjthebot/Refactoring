@@ -10,9 +10,9 @@
 ## 处理方法
 作为一个经验法则，如果你感觉有必要在方法内部注释，你应该将这段代码放入一个新的方法中。即使是一行代码。如果方法有一个描述性的名称，无需查看代码，也能了解它的功能。
 
-- **为了缩短方法体的长度，使用提取方法（[Extract Method]()）。**
+- **为了缩短方法体的长度，使用提取方法（[Extract Method](../../RefactoringTechniques/ComposingMethods/Extract.md)）。**
 
-如果局部变量和参数妨碍提取方法，使用替换临时变量（Replace Temp with Query）、引入参数对象（Introduce Parameter Object）或保留整个对象（Preserve Whole Object）。
+如果局部变量和参数妨碍提取方法，使用替换临时变量（[Replace Temp with Query](../../RefactoringTechniques/ComposingMethods/ReplaceTempwithQuery.md)）、引入参数对象（Introduce Parameter Object）或保留整个对象（Preserve Whole Object）。
 
 如果前述的方法都不起作用，尝试通过用方法对象替换方法（Replace Method with Method Object）将整个方法移动到一个单独的对象中。
 
