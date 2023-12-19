@@ -1,20 +1,19 @@
-#Refused Bequest
-##Signs and Symptoms
+# 拒绝继承
 
-If a subclass uses only some of the methods and properties inherited from its parents, the hierarchy is off-kilter. The unneeded methods may simply go unused or be redefined and give off exceptions.
+## 迹象和症状
 
+如果一个子类仅使用其父类继承的某些方法和属性，那么继承体系就失衡了。不需要的方法可能仅仅未被使用或被重新定义，导致异常。
 
-##Reasons for the Problem
+## 问题原因
 
-Someone was motivated to create inheritance between classes only by the desire to reuse the code in a superclass. But the superclass and subclass are completely different.
+有人被激励只是为了在超类中重用代码而在类之间创建继承。但超类和子类是完全不同的。
 
+## 处理方法
 
-##Treatment
+如果继承没有意义，而子类确实与超类没有任何共同之处，请放弃继承，改用使用委托替代继承（Replace Inheritance with Delegation）。
 
-If inheritance makes no sense and the subclass really does have nothing in common with the superclass, eliminate inheritance in favor of Replace Inheritance with Delegation.
+如果继承是合适的，请在子类中摆脱不需要的字段和方法。从父类中提取子类所需的所有字段和方法，将它们放入一个新的超类，并使两个类都从该超类继承（Extract Superclass）。
 
-If inheritance is appropriate, get rid of unneeded fields and methods in the subclass. Extract all fields and methods needed by the subclass from the parent class, put them in a new superclass, and set both classes to inherit from it (Extract Superclass).
+## 收益
 
-##Payoff
-
-Improves code clarity and organization. You will no longer have to wonder why the Dog class is inherited from the Chair class (even though they both have 4 legs).
+提高了代码的清晰度和组织结构。你将不再疑惑为什么Dog类要从Chair类继承（尽管它们都有4条腿）。
