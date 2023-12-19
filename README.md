@@ -1,19 +1,10 @@
 # 清晰的代码
 
-The main purpose of refactoring is to fight technical debt. It transforms a mess into clean code and simple design.
-
 重构的主要目的是应对技术债务。它将混乱的代码转变为清晰的代码和简单的设计。
-
-Nice! But what’s clean code, anyway? Here are some of its features:
 
 不错！但是清晰的代码到底是什么呢？以下是一些其特点：
 
-1. **Clean code is obvious for other programmers.**
-
- **清晰的代码对其他程序员来说是明显的。**
- 
-	And I’m not talking about super sophisticated algorithms. Poor variable naming, bloated classes and methods, magic numbers -you name it- all of that makes code sloppy and difficult to grasp.
-	
+1. **清晰的代码对其他程序员来说是明显的。**
    我不是在谈论超级复杂的算法。糟糕的变量命名，臃肿的类和方法，魔法数字——所有这些都使代码变得混乱且难以理解。
 
 2. **清晰的代码不包含重复。**
