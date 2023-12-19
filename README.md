@@ -121,31 +121,31 @@
 - 什么？代码怎么可能有“异味”？
 - 嗯，它没有鼻子... 但它确实可能臭！
 
-### 臃肿者
+### [臃肿者](codesmells/bloaters/README.md)
 臃肿者是指那些已经变得庞大到难以处理的代码、方法和类。通常这些异味不会立即出现，而是随着程序的演变而积累（尤其是当没有人努力清除它们时）。
 
-- 长方法（Long Method）
-- 大类（Large Class）
-- 原始偏执（Primitive Obsession）
-- 长参数列表（Long Parameter List）
-- 数据团（Data Clumps）
+- [长方法（Long Method）](codesmells/bloaters/LongMethod.md)
+- [大类（Large Class）](codesmells/bloaters/LargeClass.md)
+- [原始偏执（Primitive Obsession）](codesmells/bloaters/primitiveObsession.md)
+- [长参数列表（Long Parameter List）](codesmells/bloaters/LongParaList.md)
+- [数据团（Data Clumps）](codesmells/bloaters/DataClumps.md)
 
-### 面向对象滥用
+### [面向对象滥用](Object-OrientationAbusers/README.md)
 这些异味是指对面向对象编程原则的不完整或不正确应用。
 
-- 具有不同接口的替代类（Alternative Classes with Different Interfaces）
-- 拒绝继承（Refused Bequest）
-- 开关语句（Switch Statements）
-- 临时字段（Temporary Field）
+- [具有不同接口的替代类（Alternative Classes with Different Interfaces）](Object-OrientationAbusers/Alternative.md)
+- [拒绝继承（Refused Bequest）](Object-OrientationAbusers/Refused.md)
+- [开关语句（Switch Statements）](Object-OrientationAbusers/SwitchStatements.md)
+- [临时字段（Temporary Field）](Object-OrientationAbusers/Temporary.md)
 
-### 阻止变更
+### [阻止变更](Change/README.md)
 这些异味意味着如果你需要在代码的一个地方进行更改，你必须在其他地方进行许多更改。由此导致程序开发变得更加复杂和昂贵。
 
 - 发散变更（Divergent Change）
 - 平行继承体系（Parallel Inheritance Hierarchies）
 - 散弹手术（Shotgun Surgery）
 
-### 可丢弃的
+### [可丢弃的](Dispensables/README.md)
 可丢弃的是指一些毫无意义和不必要的东西，如果删除，将使代码更清晰、更高效，并更易于理解。
 
 - 注释（Comments）
@@ -155,7 +155,7 @@
 - 懒惰类（Lazy Class）
 - 猜测性泛化（Speculative Generality）
 
-### 耦合者
+### [耦合者](Couplers/README.md)
 这一组中的所有异味都导致类之间的耦合过度，或显示了如果通过过度委托来替代耦合会发生什么。
 
 - 特性嫉妒（Feature Envy）
@@ -164,9 +164,9 @@
 - 消息链（Message Chains）
 - 中间人（Middle Man）
 
-## 重构技术
+## [重构技术](RefactoringTechniques/README.md)
 
-### 方法组合
+### [方法组合](RefactoringTechniques/ComposingMethods/README.md)
 大部分的重构都致力于正确组合方法。在大多数情况下，过长的方法是所有问题的根源。这些方法内部的代码曲折地隐藏了执行逻辑，使方法难以理解——甚至更难更改。
 
 - 提取方法（Extract Method）
@@ -179,7 +179,7 @@
 - 用方法对象替代方法（Replace Method with Method Object）
 - 替代算法（Substitute Algorithm）
 
-### 在对象之间移动特性
+### [在对象之间移动特性](RefactoringTechniques/MovingFeaturesbetweenObjects/README.md)
 即使你以不太理想的方式在不同类之间分发功能，仍有希望。
 
 这些重构技术展示了如何在类之间安全地移动功能，创建新类，并将实现细节隐藏在公共访问之外。
@@ -193,7 +193,7 @@
 - 引入外来方法（Introduce Foreign Method）
 - 引入本地扩展（Introduce Local Extension）
 
-### 数据组织
+### [数据组织](RefactoringTechniques/OrganizingData/)
 这些重构技术有助于处理数据，将基本类型替换为丰富的类功能。另一个重要的结果是解开类之间的关联，使类更易于移植和重用。
 
 - 将值对象变为引用对象（Change Value to Reference）
@@ -212,7 +212,7 @@
 - 用状态/策略替代类型码（Replace Type Code with State/Strategy）
 - 用字段替代子类（Replace Subclass with Fields）
 
-### 简化条件表达式
+### [简化条件表达式](RefactoringTechniques/SimplifyingConditionalExpressions)
 随着时间推移，条件表达式往往变得越来越复杂，有更多的技术来对抗这种情况。
 
 - 合并条件表达式（Consolidate Conditional Expression）
@@ -224,6 +224,6 @@
 - 引入空对象（Introduce Null Object）
 - 引入断言（Introduce Assertion）
 
-### 简化方法调用
+### [简化方法调用](RefactoringTechniques/SimplifyingMethodCalls)
 这些技术使方法调用更简单，更易于理解。这反过来简化了
 
