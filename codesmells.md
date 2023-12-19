@@ -30,7 +30,7 @@
 - **[并行继承体系](codesmells/Change/Parallel.md)**
 - **[散弹手术](codesmells/Change/Shotgun.md)**
 
-## [可弃用者](code	smells/Dispensables.md)
+## [可弃用者](codesmells/Dispensables.md)
 
 可弃用者是指一些毫无意义且不必要的东西，如果去掉它们，代码会变得更清晰、更高效和更易于理解。
 
