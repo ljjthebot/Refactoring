@@ -169,15 +169,15 @@
 ### [方法组合](RefactoringTechniques/ComposingMethods/README.md)
 大部分的重构都致力于正确组合方法。在大多数情况下，过长的方法是所有问题的根源。这些方法内部的代码曲折地隐藏了执行逻辑，使方法难以理解——甚至更难更改。
 
-- 提取方法（Extract Method）
-- 内联方法（Inline Method）
-- 提取变量（Extract Variable）
-- 内联临时变量（Inline Temp）
-- 用查询替代临时变量（Replace Temp with Query）
-- 拆分临时变量（Split Temporary Variable）
-- 移除对参数的赋值（Remove Assignments to Parameters）
-- 用方法对象替代方法（Replace Method with Method Object）
-- 替代算法（Substitute Algorithm）
+- [提取方法（Extract Method）](RefactoringTechniques/ComposingMethods/Extract.md)
+- [内联方法（Inline Method）](RefactoringTechniques/ComposingMethods/Inline.md)
+- [提取变量（Extract Variable）](RefactoringTechniques/ComposingMethods/Variable.md)
+- [内联临时变量（Inline Temp）](RefactoringTechniques/ComposingMethods/InlineTemp.md)
+- [用查询替代临时变量（Replace Temp with Query）](RefactoringTechniques/ComposingMethods/ReplaceTempwithQuery.md)
+- [拆分临时变量（Split Temporary Variable）](RefactoringTechniques/ComposingMethods/SplitTemporaryVariable.md)
+- [移除对参数的赋值（Remove Assignments to Parameters）](RefactoringTechniques/ComposingMethods/RemoveAssignmentstoParameters.md)
+- [用方法对象替代方法（Replace Method with Method Object）](RefactoringTechniques/ComposingMethods/ReplaceMethodwithMethodObject.md)
+- [替代算法（Substitute Algorithm）](RefactoringTechniques/ComposingMethods/SubstituteAlgorithm.md)
 
 ### [在对象之间移动特性](RefactoringTechniques/MovingFeaturesbetweenObjects/README.md)
 即使你以不太理想的方式在不同类之间分发功能，仍有希望。
