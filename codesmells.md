@@ -30,7 +30,7 @@
 - **[并行继承体系](codesmells/Change/Parallel.md)**
 - **[散弹手术](codesmells/Change/Shotgun.md)**
 
-## [可弃用者](codesmells/Dispensables.md)
+## [可弃用者](code	smells/Dispensables.md)
 
 可弃用者是指一些毫无意义且不必要的东西，如果去掉它们，代码会变得更清晰、更高效和更易于理解。
 
@@ -41,11 +41,12 @@
 - **[懒惰类](codesmells/Dispensables/Lazy.md)**
 - **[猜测性泛化](codesmells/Dispensables/Speculative.md)**
 
-## 耦合者
+## [耦合者](codesmells/Couplers.md)
 
 这个组中的所有异味都促使类之间的耦合过度或展示了如果通过过度委托替代耦合会发生什么。
 
-- **特征嫉妒**
-- **不适当的亲密关系**
-- **不完整的库类**
-- **消息链**
+- **[特征嫉妒](codesmells/Couplers/Feature.md)**
+- **[不适当的亲密关系](codesmells/Couplers/Inappropriate.md)**
+- **不完整的库类]**
+- **[消息链](codesmells/Couplers/Message.md)**
+- **[中间者](codesmells/Couplers/Middle.md)**
