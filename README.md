@@ -133,39 +133,39 @@
 - [长参数列表（Long Parameter List）](codesmells/bloaters/LongParaList.md)
 - [数据团（Data Clumps）](codesmells/bloaters/DataClumps.md)
 
-### [面向对象滥用](Object-OrientationAbusers/README.md)
+### [面向对象滥用](codesmells/Object-OrientationAbusers/README.md)
 这些异味是指对面向对象编程原则的不完整或不正确应用。
 
-- [具有不同接口的替代类（Alternative Classes with Different Interfaces）](Object-OrientationAbusers/Alternative.md)
-- [拒绝继承（Refused Bequest）](Object-OrientationAbusers/Refused.md)
-- [开关语句（Switch Statements）](Object-OrientationAbusers/SwitchStatements.md)
-- [临时字段（Temporary Field）](Object-OrientationAbusers/Temporary.md)
+- [具有不同接口的替代类（Alternative Classes with Different Interfaces）](codesmells/Object-OrientationAbusers/Alternative.md)
+- [拒绝继承（Refused Bequest）](codesmells/Object-OrientationAbusers/Refused.md)
+- [开关语句（Switch Statements）](codesmells/Object-OrientationAbusers/SwitchStatements.md)
+- [临时字段（Temporary Field）](codesmells/Object-OrientationAbusers/Temporary.md)
 
-### [阻止变更](Change/README.md)
+### [阻止变更](codesmells/Change/README.md)
 这些异味意味着如果你需要在代码的一个地方进行更改，你必须在其他地方进行许多更改。由此导致程序开发变得更加复杂和昂贵。
 
-- 发散变更（Divergent Change）
-- 平行继承体系（Parallel Inheritance Hierarchies）
-- 散弹手术（Shotgun Surgery）
+- [发散变更（Divergent Change）](codesmells/Change/Divergent.md)
+- [平行继承体系（Parallel Inheritance Hierarchies）](codesmells/Change/Parallel.md)
+- [散弹手术（Shotgun Surgery）](codesmells/Change/Shotgun.md)
 
-### [可丢弃的](Dispensables/README.md)
+### [可丢弃的](codesmells/Dispensables/README.md)
 可丢弃的是指一些毫无意义和不必要的东西，如果删除，将使代码更清晰、更高效，并更易于理解。
 
-- 注释（Comments）
-- 重复代码（Duplicate Code）
-- 数据类（Data Class）
-- 死代码（Dead Code）
-- 懒惰类（Lazy Class）
-- 猜测性泛化（Speculative Generality）
+- [注释（Comments）](codesmells/Dispensables/Comments.md)
+- [重复代码（Duplicate Code）](codesmells/Dispensables/Duplicate.md)
+- [数据类（Data Class）](codesmells/Dispensables/Data.md)
+- [死代码（Dead Code）](codesmells/DispensablesDead.md/)
+- [懒惰类（Lazy Class）](codesmells/Dispensables/Lazy.md)
+- [猜测性泛化（Speculative Generality）](codesmells/Dispensables/Speculative.md)
 
-### [耦合者](Couplers/README.md)
+### [耦合者](codesmells/Couplers/README.md)
 这一组中的所有异味都导致类之间的耦合过度，或显示了如果通过过度委托来替代耦合会发生什么。
 
-- 特性嫉妒（Feature Envy）
-- 不适当的亲密关系（Inappropriate Intimacy）
-- 不完整的库类（Incomplete Library Class）
-- 消息链（Message Chains）
-- 中间人（Middle Man）
+- [特性嫉妒（Feature Envy）](codesmells/Couplers/Feature.md)
+- [不适当的亲密关系（Inappropriate Intimacy）](codesmells/Couplers/Inappropriate.md)
+- [不完整的库类（Incomplete Library Class）](codesmells/Couplers/)
+- [消息链（Message Chains）](codesmells/Couplers/Message.md)
+- [中间人（Middle Man）](codesmells/Couplers/Middle.md)
 
 ## [重构技术](RefactoringTechniques/README.md)
 

@@ -2,26 +2,26 @@
 
 可弃用者是指一些毫无意义且不必要的东西，其缺失将使代码更加清晰、更高效和更易于理解。
 
-## [注释](Dispensables/Comments.md)
+## [注释](Comments.md)
 
 一个方法充满了解释性的注释。
 
-## [重复代码](Dispensables/Duplicate.md)
+## [重复代码](Duplicate.md)
 
 两个代码片段看起来几乎相同。
 
-## [懒惰类](Dispensables/Lazy.md)
+## [懒惰类](Lazy.md)
 
 理解和维护类总是需要时间和金钱。因此，如果一个类没有足够的功能来引起你的注意，它应该被删除。
 
-## [数据类](Dispensables/Data.md)
+## [数据类](Data.md)
 
 数据类指的是只包含字段和用于访问它们的简陋方法（getter和setter）的类。这些类仅仅是其他类使用的数据容器。这些类不包含任何额外的功能，并且不能独立地对它们拥有的数据进行操作。
 
-## [死代码](Dispensables/Dead.md)
+## [死代码](Dead.md)
 
 一个变量、参数、字段、方法或类不再被使用（通常是因为它已经过时）。
 
-## [推测性泛化](Dispensables/Speculative.md)
+## [推测性泛化](Speculative.md)
 
 存在未使用的类、方法、字段或参数。

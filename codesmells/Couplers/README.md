@@ -1,14 +1,14 @@
 #当心耦合
 所有这组中的气味都会导致类之间的过度耦合，或展示当耦合被过度委托替代时会发生什么。
 
-##[特性嫉妒](Couplers/Feature.md)
+##[特性嫉妒](Feature.md)
 一个方法访问另一个对象的数据比访问自己的数据更频繁。
 
-##[不当亲密关系](Couplers/Inappropriate.md)
+##[不当亲密关系](Inappropriate.md)
 一个类使用另一个类的内部字段和方法。
 
-##[消息链](Couplers/Message.md)
+##[消息链](Message.md)
 在代码中，你会看到一系列类似于 $a->b()->c()->d() 的调用。
 
-##[中介人](Couplers/Middle.md)
+##[中介人](Middle.md)
 如果一个类只执行一个操作，并将工作委托给另一个类，那么它为什么存在？
