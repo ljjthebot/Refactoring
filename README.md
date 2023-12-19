@@ -1,5 +1,5 @@
 # 代码重构-学习笔记
-
+原文地址：[https://refactoring.guru/refactoring/techniques](https://refactoring.guru/refactoring/techniques)
 
 # 清晰的代码
 
@@ -196,37 +196,64 @@
 - [引入外来方法（Introduce Foreign Method）](RefactoringTechniques/MovingFeaturesbetweenObjects/IntroduceForeignMethod.md)
 - [引入本地扩展（Introduce Local Extension）](RefactoringTechniques/MovingFeaturesbetweenObjects/IntroduceLocalExtension.md)
 
-### [数据组织](RefactoringTechniques/OrganizingData/)
+### [数据组织](RefactoringTechniques/OrganizingData/README.md)
 这些重构技术有助于处理数据，将基本类型替换为丰富的类功能。另一个重要的结果是解开类之间的关联，使类更易于移植和重用。
 
-- 将值对象变为引用对象（Change Value to Reference）
-- 将引用对象变为值对象（Change Reference to Value）
-- 重复观察数据（Duplicate Observed Data）
-- 自封装字段（Self Encapsulate Field）
-- 用对象替代数据值（Replace Data Value with Object）
-- 用对象替代数组（Replace Array with Object）
-- 将单向关联改为双向关联（Change Unidirectional Association to Bidirectional）
-- 将双向关联改为单向关联（Change Bidirectional Association to Unidirectional）
-- 封装字段（Encapsulate Field）
-- 封装集合（Encapsulate Collection）
-- 用符号常量替代魔法数字（Replace Magic Number with Symbolic Constant）
-- 用类替代类型码（Replace Type Code with Class）
-- 用子类替代类型码（Replace Type Code with Subclasses）
-- 用状态/策略替代类型码（Replace Type Code with State/Strategy）
-- 用字段替代子类（Replace Subclass with Fields）
+- [将值对象变为引用对象（Change Value to Reference）](RefactoringTechniques/OrganizingData/ChangeValuetoReference.md)
+- [将引用对象变为值对象（Change Reference to Value）](RefactoringTechniques/OrganizingData/ChangeReferencetoValue.md)
+- [重复观察数据（Duplicate Observed Data）](RefactoringTechniques/OrganizingData/DuplicateObservedData.md)
+- [自封装字段（Self Encapsulate Field）](RefactoringTechniques/OrganizingData/SelfEncapsulateField.md)
+- [用对象替代数据值（Replace Data Value with Object）](RefactoringTechniques/OrganizingData/ReplaceDataValuewithObject.md)
+- [用对象替代数组（Replace Array with Object）](RefactoringTechniques/OrganizingData/ReplaceArraywithObject.md)
+- [将单向关联改为双向关联（Change Unidirectional Association to Bidirectional）](RefactoringTechniques/OrganizingData/ChangeUnidirectionalAssociationtoBidirectional.md)
+- [将双向关联改为单向关联（Change Bidirectional Association to Unidirectional）](RefactoringTechniques/OrganizingData/ChangeBidirectionalAssociationtoUnidirectional.md)
+- [封装字段（Encapsulate Field）](RefactoringTechniques/OrganizingData/EncapsulateField.md)
+- [封装集合（Encapsulate Collection）](RefactoringTechniques/OrganizingData/EncapsulateCollection.md)
+- [用符号常量替代魔法数字（Replace Magic Number with Symbolic Constant）](RefactoringTechniques/OrganizingData/ReplaceMagicNumberwithSymbolicConstant.md)
+- [用类替代类型码（Replace Type Code with Class）](RefactoringTechniques/OrganizingData/ReplaceTypeCodewithClass.md)
+- [用子类替代类型码（Replace Type Code with Subclasses）](RefactoringTechniques/OrganizingData/ReplaceTypeCodewithSubclasses.md)
+- [用状态/策略替代类型码（Replace Type Code with State/Strategy）](RefactoringTechniques/OrganizingData/ReplaceTypeCodewithStateStrategy.md)
+- [用字段替代子类（Replace Subclass with Fields）](RefactoringTechniques/OrganizingData/ReplaceSubclasswithFields.md)
 
-### [简化条件表达式](RefactoringTechniques/SimplifyingConditionalExpressions)
+### [简化条件表达式](RefactoringTechniques/SimplifyingConditionalExpressions/README.md)
 随着时间推移，条件表达式往往变得越来越复杂，有更多的技术来对抗这种情况。
 
-- 合并条件表达式（Consolidate Conditional Expression）
-- 合并重复的条件片段（Consolidate Duplicate Conditional Fragments）
-- 分解条件表达式（Decompose Conditional）
-- 用多态替代条件表达式（Replace Conditional with Polymorphism）
-- 移除控制标志（Remove Control Flag）
-- 用守卫句替代嵌套条件表达式（Replace Nested Conditional with Guard Clauses）
-- 引入空对象（Introduce Null Object）
-- 引入断言（Introduce Assertion）
+- [合并条件表达式（Consolidate Conditional Expression）](RefactoringTechniques/SimplifyingConditionalExpressions/ConsolidateConditionalExpression.md)
+- [合并重复的条件片段（Consolidate Duplicate Conditional Fragments）](RefactoringTechniques/SimplifyingConditionalExpressions/ConsolidateDuplicateConditionalFragments.md)
+- [分解条件表达式（Decompose Conditional）](RefactoringTechniques/SimplifyingConditionalExpressions/DecomposeConditional.md)
+- [用多态替代条件表达式（Replace Conditional with Polymorphism）](RefactoringTechniques/SimplifyingConditionalExpressions/ReplaceConditionalwithPolymorphism.md)
+- [移除控制标志（Remove Control Flag）](RefactoringTechniques/SimplifyingConditionalExpressions/RemoveControlFlag.md)
+- [用守卫句替代嵌套条件表达式（Replace Nested Conditional with Guard Clauses）](RefactoringTechniques/SimplifyingConditionalExpressions/ReplaceNestedConditionalwithGuardClauses.md)
+- [引入空对象（Introduce Null Object）](RefactoringTechniques/SimplifyingConditionalExpressions/IntroduceNullObject.md)
+- [引入断言（Introduce Assertion）](RefactoringTechniques/SimplifyingConditionalExpressions/IntroduceAssertion.md)
 
-### [简化方法调用](RefactoringTechniques/SimplifyingMethodCalls)
-这些技术使方法调用更简单，更易于理解。这反过来简化了
+### [简化方法调用](RefactoringTechniques/SimplifyingMethodCalls/README.md)
+这些技术使方法调用更简单、更易理解。从而简化了类之间的交互接口。
 
+- **[添加参数（Add Parameter）](RefactoringTechniques/SimplifyingMethodCalls/AddParameter.md)**
+- **[移除参数（Remove Parameter）](RefactoringTechniques/SimplifyingMethodCalls/RemoveParameter.md)**
+- **[重命名方法（Rename Method）](RefactoringTechniques/SimplifyingMethodCalls/RenameMethod.md)**
+- **[将查询和修改分离（Separate Query from Modifier）](RefactoringTechniques/SimplifyingMethodCalls/SeparateQueryfromModifier.md)**
+- **[参数化方法（Parameterize Method）](RefactoringTechniques/SimplifyingMethodCalls/ParameterizeMethod.md)**
+- **[引入参数对象（Introduce Parameter Object）](RefactoringTechniques/SimplifyingMethodCalls/IntroduceParameterObject.md)**
+- **[保留整个对象（Preserve Whole Object）](RefactoringTechniques/SimplifyingMethodCalls/PreserveWholeObject.md)**
+- **[移除设置方法（Remove Setting Method）](RefactoringTechniques/SimplifyingMethodCalls/RemoveSettingMethod.md)**
+- **[用显式方法替换参数（Replace Parameter with Explicit Methods）](RefactoringTechniques/SimplifyingMethodCalls/ReplaceParameterwithExplicitMethods.md)**
+- **[用方法调用替换参数（Replace Parameter with Method Call）](RefactoringTechniques/SimplifyingMethodCalls/ReplaceParameterwithMethodCall.md)**
+- **[隐藏方法（Hide Method）](RefactoringTechniques/SimplifyingMethodCalls/HideMethod.md)**
+- **[用工厂方法替换构造函数（Replace Constructor with Factory Method）](RefactoringTechniques/SimplifyingMethodCalls/ReplaceConstructorwithFactoryMethod.md)**
+- **[用异常替换错误码（Replace Error Code with Exception）](RefactoringTechniques/SimplifyingMethodCalls/ReplaceErrorCodewithException.md)**
+- **[用测试替换异常（Replace Exception with Test）](RefactoringTechniques/SimplifyingMethodCalls/ReplaceExceptionwithTest.md)**
+
+### [处理泛化](RefactoringTechniques/DealingwithGeneralization/README.md)
+抽象有其自己的一组重构技术，主要涉及沿着类继承层次结构移动功能，创建新的类和接口，以及替换继承与委托之间的关系。
+
+- **[上移字段（Pull Up Field）](RefactoringTechniques/DealingwithGeneralization/PullUpField.md)**
+- **[上移方法（Pull Up Method）](RefactoringTechniques/DealingwithGeneralization/PullUpMethod.md)**
+- **[上移构造函数主体（Pull Up Constructor Body）](RefactoringTechniques/DealingwithGeneralization/PullUpConstructorBody.md)**
+- **[下移字段（Push Down Field）](RefactoringTechniques/DealingwithGeneralization/PushDownField.md)**
+- **[下移方法（Push Down Method）](RefactoringTechniques/DealingwithGeneralization/PushDownMethod.md)**
+- **[提取子类（Extract Subclass）](RefactoringTechniques/DealingwithGeneralization/ExtractSubclass.md)**
+- **[提取超类（Extract Superclass）](RefactoringTechniques/DealingwithGeneralization/ExtractSuperclass.md)**
+- **[提取接口（Extract Interface）](RefactoringTechniques/DealingwithGeneralization/ExtractInterface.md)**
+- **[折叠层次结构（Collapse Hierarchy）](RefactoringTechniques/DealingwithGeneralization/CollapseHierarchy.md)**
